@@ -1,7 +1,7 @@
 
 ---
 
-## 📌 `.github/workflows/snake.yml`
+# 📌 Fixed `.github/workflows/snake.yml`
 
 ```yaml
 name: Generate Snake
@@ -9,10 +9,10 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
   push:
     branches:
-      - main
-  workflow_dispatch:
+      - main   # change to master if your repo uses master instead of main
 
 jobs:
   build:
