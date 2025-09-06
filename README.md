@@ -1,15 +1,25 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rahulvijay007/rahulvijay007/main/assets/banner.png" alt="Rahul's Banner"/>
+</p>
+
 # 👋 Hey there, I'm Rahul!
 
 🎓 **B.Tech CSE @ Dayananda Sagar University**  
 💡 AI/ML | Data Science | Full-Stack | Aerospace & Space Applications  
 📍 Bengaluru, India  
 
+![Profile Views](https://komarev.com/ghpvc/?username=rahulvijay007&color=blue&style=flat-square&label=PROFILE+VIEWS)
+![GitHub Followers](https://img.shields.io/github/followers/rahulvijay007?label=Followers&style=flat-square)
+![GitHub Stars](https://img.shields.io/github/stars/rahulvijay007?label=Stars&style=flat-square)
+
 ---
 
 ## 🚀 About Me
-I’m an **AI and Machine Learning enthusiast** with a passion for building intelligent solutions that bridge research and real-world impact. My work spans from **federated learning systems** and **time-series analytics** to **satellite imagery normalization** and **AI-driven forecasting**.  
+I’m an **AI and Machine Learning enthusiast** passionate about building intelligent solutions that bridge research and real-world impact.  
 
-Beyond code, I’m fascinated by **space technologies, astrophysics applications, and cricket analytics** — blending technical depth with creativity and storytelling.  
+My journey spans **federated learning**, **time-series analytics**, **satellite imagery normalization**, and **AI-driven forecasting**.  
+
+Outside of code, I dive into **space technologies, astrophysics, and cricket analytics** — mixing tech depth with creativity and storytelling.  
 
 ---
 
@@ -23,10 +33,10 @@ Beyond code, I’m fascinated by **space technologies, astrophysics applications
 
 ## 🔬 Featured Projects
 🌟 **Hybrid AI for Energy Forecasting (Federated Learning)**  
-Built LSTM + Transformer hybrids in a federated setup to forecast multi-resolution household energy consumption while preserving data privacy.  
+Built LSTM + Transformer hybrids in a federated setup to forecast household energy consumption while preserving privacy.  
 
 🛰️ **Radiometric Normalization of Satellite Imagery**  
-Designed DL/ML algorithms for multi-temporal satellite image correction and seamless mosaic generation with Bhuvan datasets.  
+Designed DL/ML algorithms for satellite image correction and seamless mosaic generation using Bhuvan datasets.  
 
 📈 **Temporal Data Dynamics with DL/ML**  
 Developed adaptive pipelines for anomaly detection & trend forecasting using RNNs and TCNs.  
@@ -42,15 +52,7 @@ Developed adaptive pipelines for anomaly detection & trend forecasting using RNN
 
 ---
 
-## 🌌 Beyond Tech
-- ⚡ Exploring **astrophysics & space applications**  
-- 🏏 Cricket enthusiast + sports analytics hobbyist  
-- 🎹 Playing piano when not debugging  
-- 🛰️ Dreaming of scalable AI for **aerospace & space exploration**  
-
----
-
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Achievements
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rahulvijay007&show_icons=true&theme=tokyonight" height="180px"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rahulvijay007&theme=tokyonight" height="180px"/>
@@ -62,7 +64,19 @@ Developed adaptive pipelines for anomaly detection & trend forecasting using RNN
 
 ---
 
-## 🐍 Contribution Graph
+### 🏆 Trophy Cabinet
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rahulvijay007&theme=tokyonight&no-frame=true&margin-w=15"/>
+</p>
+
+---
+
+### 📈 Contribution Graph
+![Rahul's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rahulvijay007&theme=tokyo-night)
+
+---
+
+### 🐍 Snake Contribution Animation
 ![snake gif](https://github.com/rahulvijay007/rahulvijay007/blob/output/github-contribution-grid-snake.svg)
 
 ---
@@ -85,3 +99,18 @@ if __name__ == "__main__":
     rahul = Rahul()
     print(rahul)
     print(rahul.code())
+
+
+## 📫 Let’s Connect!
+
+<p align="center">
+  <a href="mailto:rahul160503@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://linkedin.com/in/rahul-v">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/rahulvijay007">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
