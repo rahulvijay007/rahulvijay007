@@ -77,7 +77,7 @@ Developed adaptive pipelines for anomaly detection & trend forecasting using RNN
 ---
 
 ### 🐍 Snake Contribution Animation
-![snake gif](https://github.com/rahulvijay007/rahulvijay007/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/rahulvijay007/rahulvijay007/blob/output/snake.svg)
 
 ---
 
@@ -99,8 +99,7 @@ if __name__ == "__main__":
     rahul = Rahul()
     print(rahul)
     print(rahul.code())
-
-
+```
 ## 📫 Let’s Connect!
 
 <p align="center">
@@ -114,3 +113,4 @@ if __name__ == "__main__":
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
+
