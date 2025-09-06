@@ -1,18 +1,12 @@
-
----
-
-# 📌 Fixed `.github/workflows/snake.yml`
-
-```yaml
 name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
-  workflow_dispatch:
-  push:
+    - cron: "0 * * * *"   # every hour
+  workflow_dispatch:       # allow manual runs
+  push:                    # run on push to main
     branches:
-      - main   # change to master if your repo uses master instead of main
+      - main   # change to master if your repo uses master
 
 jobs:
   build:
