@@ -1,8 +1,4 @@
-- name: GitHub-Profile-3D-Contrib
-  uses: yoshi389111/github-profile-3d-contrib@v0.9.1
-
-
-
+name: Generate 3D Contribution Graph
 
 on:
   schedule:
@@ -10,7 +6,7 @@ on:
   workflow_dispatch:       # allow manual trigger
 
 permissions:
-  contents: write
+  contents: write          # ✅ needed so the action can push changes
 
 jobs:
   build:
@@ -26,9 +22,9 @@ jobs:
           username: rahulvijay007
 
       - name: Push 3D graph
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: EndBug/add-and-commit@v9
         with:
-          target_branch: main
-          build_dir: ./profile-3d-contrib
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "Generated 3D contribution graph"
+          add: "profile-3d-contrib/*"
