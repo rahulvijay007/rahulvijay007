@@ -58,13 +58,14 @@ Outside of code, I dive into **space technologies, astrophysics, and cricket ana
 
 ## 📊 GitHub Stats & Achievements
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=rahulvijay007&show_icons=true&theme=tokyonight" height="180px"/>
-  <img src="https://streak-stats.demolab.com?user=rahulvijay007&theme=tokyonight&hide_border=false" height="180px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=rahulvijay007&show_icons=true&theme=tokyonight&count_private=true" height="180px"/>
+  <img src="https://streak-stats.demolab.com?user=rahulvijay007&theme=tokyonight&hide_border=false&count_private=true" height="180px"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rahulvijay007&layout=compact&theme=tokyonight" height="160px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rahulvijay007&layout=compact&theme=tokyonight&langs_count=8&hide_border=false" height="160px"/>
 </p>
+
 
 ---
 
