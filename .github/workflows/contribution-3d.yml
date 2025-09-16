@@ -1,0 +1,30 @@
+name: Generate 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs daily at midnight
+  workflow_dispatch:       # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate 3D profile contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          username: rahulvijay007
+
+      - name: Push 3D graph
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: main
+          build_dir: ./profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
