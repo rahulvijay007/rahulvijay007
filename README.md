@@ -16,7 +16,7 @@
 
 ## ✨ Animated Intro
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&color=6A5ACD&width=600&lines=AI+%7C+ML+%7C+Data+Science+%7C+Space+Tech+Explorer;Building+Scalable+AI+Systems;Turning+Coffee+Into+Code+☕🤖" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&color=6A5ACD&width=600&lines=AI+%7C+ML+%7C+Data+Science+%7C+Space+Tech+Explorer;Building+Scalable+AI+Systems;Turning+Coffee+Into+Code+☕🤖" alt="Typing SVG"/>
 </p>
 
 ---
@@ -39,16 +39,27 @@ Outside of code, I dive into **space technologies, astrophysics, and cricket ana
 ---
 
 ## 🔬 Featured Projects
-🌟 **Hybrid AI for Energy Forecasting (Federated Learning)**  
-🛰️ **Radiometric Normalization of Satellite Imagery**  
-📈 **Temporal Data Dynamics with DL/ML**  
+🌟 **Hybrid AI for Energy Forecasting (Federated Learning)** – Built LSTM + Transformer hybrids in a federated setup to forecast household energy consumption while preserving privacy.  
+
+🛰️ **Radiometric Normalization of Satellite Imagery** – Designed DL/ML algorithms for satellite image correction and seamless mosaic generation using Bhuvan datasets.  
+
+📈 **Temporal Data Dynamics with DL/ML** – Developed adaptive pipelines for anomaly detection & trend forecasting using RNNs and TCNs.  
+
+---
+
+## 📜 Certifications
+- 🎓 IBM Full Stack Software Developer (2025)  
+- 📊 Data Science Specialization — Johns Hopkins University (2025)  
+- 🤖 AI with ML & Deep Learning — Udemy (2023)  
+- ✍️ Prompt Engineering for LLMs — DeepLearning.AI (2024)  
+- 🐧 Linux Foundation Course — Infosys Springboard (2024)  
 
 ---
 
 ## 📊 GitHub Stats & Achievements
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=rahulvijay007&show_icons=true&theme=tokyonight" height="180px"/>
-  <img src="https://streak-stats.demolab.com/?user=rahulvijay007&theme=tokyonight" height="180px"/>
+  <img src="https://streak-stats.demolab.com?user=rahulvijay007&theme=tokyonight&hide_border=false" height="180px"/>
 </p>
 
 <p align="center">
@@ -65,7 +76,9 @@ Outside of code, I dive into **space technologies, astrophysics, and cricket ana
 ---
 
 ### 📈 Contribution Graph
-![Rahul's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rahulvijay007&theme=tokyo-night)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rahulvijay007&theme=tokyo-night&hide_border=true" width="100%"/>
+</p>
 
 ---
 
