@@ -1,0 +1,209 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for nodes -->
+    <radialGradient id="aiGrad">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.4"/>
+    </radialGradient>
+
+    <radialGradient id="dataGrad">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:0.4"/>
+    </radialGradient>
+
+    <radialGradient id="langGrad">
+      <stop offset="0%" style="stop-color:#764ba2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:0.4"/>
+    </radialGradient>
+
+    <radialGradient id="frameworkGrad">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:0.4"/>
+    </radialGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Line gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background stars -->
+  <circle cx="50" cy="50" r="1" fill="#ffffff" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="950" cy="100" r="1" fill="#ffffff" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="550" r="1" fill="#ffffff" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="500" r="1" fill="#ffffff" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#f093fb" text-anchor="middle">
+    Tech Stack Constellation
+  </text>
+  <text x="500" y="65" font-family="Arial, sans-serif" font-size="14" fill="#764ba2" text-anchor="middle" opacity="0.8">
+    Technologies interconnected like stars in the cosmos
+  </text>
+
+  <!-- Constellation lines (connections between technologies) -->
+  <g opacity="0.4">
+    <!-- AI/ML to Languages -->
+    <line x1="250" y1="150" x2="350" y2="250" stroke="url(#lineGrad)" stroke-width="1.5"/>
+    <line x1="250" y1="150" x2="650" y2="250" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+    <!-- Languages to Frameworks -->
+    <line x1="350" y1="250" x2="350" y2="400" stroke="url(#lineGrad)" stroke-width="1.5"/>
+    <line x1="650" y1="250" x2="650" y2="400" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+    <!-- AI/ML to Data Science -->
+    <line x1="250" y1="150" x2="750" y2="150" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+    <!-- Frameworks to Tools -->
+    <line x1="350" y1="400" x2="500" y2="520" stroke="url(#lineGrad)" stroke-width="1.5"/>
+    <line x1="650" y1="400" x2="500" y2="520" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+    <!-- Cross connections -->
+    <line x1="750" y1="150" x2="650" y2="400" stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.3"/>
+    <line x1="250" y1="150" x2="500" y2="520" stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.3"/>
+  </g>
+
+  <!-- AI/ML Node -->
+  <g>
+    <circle cx="250" cy="150" r="30" fill="url(#aiGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="30;33;30" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="250" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      AI/ML
+    </text>
+    <!-- Orbiting particles -->
+    <circle cx="0" cy="0" r="3" fill="#f093fb" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" from="0 250 150" to="360 250 150" dur="8s" repeatCount="indefinite"/>
+      <animateMotion path="M 280,150 A 30,30 0 1,1 220,150 A 30,30 0 1,1 280,150" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Data Science Node -->
+  <g>
+    <circle cx="750" cy="150" r="30" fill="url(#dataGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="30;33;30" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="750" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      Data
+    </text>
+    <text x="750" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      Science
+    </text>
+    <!-- Orbiting particles -->
+    <circle cx="0" cy="0" r="3" fill="#667eea" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" from="0 750 150" to="360 750 150" dur="7s" repeatCount="indefinite"/>
+      <animateMotion path="M 780,150 A 30,30 0 1,1 720,150 A 30,30 0 1,1 780,150" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Python Node -->
+  <g>
+    <circle cx="350" cy="250" r="28" fill="url(#langGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="28;31;28" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="350" y="257" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      Python
+    </text>
+  </g>
+
+  <!-- SQL Node -->
+  <g>
+    <circle cx="650" cy="250" r="25" fill="url(#langGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="25;28;25" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="650" y="257" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      SQL
+    </text>
+  </g>
+
+  <!-- React/Flutter Node -->
+  <g>
+    <circle cx="350" cy="400" r="26" fill="url(#frameworkGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="26;29;26" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="350" y="400" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">
+      React/
+    </text>
+    <text x="350" y="415" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">
+      Flutter
+    </text>
+  </g>
+
+  <!-- Flask/PyTorch Node -->
+  <g>
+    <circle cx="650" cy="400" r="26" fill="url(#frameworkGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="26;29;26" dur="3.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="650" y="400" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">
+      Flask/
+    </text>
+    <text x="650" y="415" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">
+      PyTorch
+    </text>
+  </g>
+
+  <!-- Tools Node (Center bottom) -->
+  <g>
+    <circle cx="500" cy="520" r="32" fill="url(#aiGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="32;35;32" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="500" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      Git/Docker
+    </text>
+    <text x="500" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      & Tools
+    </text>
+    <!-- Orbiting particles -->
+    <circle cx="0" cy="0" r="3" fill="#764ba2" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" from="0 500 520" to="360 500 520" dur="6s" repeatCount="indefinite"/>
+      <animateMotion path="M 532,520 A 32,32 0 1,1 468,520 A 32,32 0 1,1 532,520" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Smaller technology nodes (decorative) -->
+  <g opacity="0.7">
+    <circle cx="500" cy="150" r="15" fill="#667eea" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="500" y="155" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">R</text>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="150" cy="300" r="15" fill="#764ba2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="150" y="305" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">Java</text>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="850" cy="300" r="15" fill="#f093fb" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="850" y="305" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">Dart</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(50, 570)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#764ba2" opacity="0.8">
+      ⭐ Major Technologies  |  ○ Supporting Languages  |  ━ Connections &amp; Integrations
+    </text>
+  </g>
+</svg>
